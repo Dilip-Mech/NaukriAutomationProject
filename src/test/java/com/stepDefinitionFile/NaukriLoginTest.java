@@ -13,6 +13,10 @@ public class NaukriLoginTest {
 	public void user_should_landed_into_naukri_login_page() {
 
 		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.naukri.com/");
 
 
 	}
